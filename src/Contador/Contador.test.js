@@ -79,10 +79,4 @@ describe('Showing MyComponent code', () => {
         console.log(testShallow.debug());
     })
     
-    it('Show Contador.js code, and it should have all <MyComponent /> code', () => {
-        const testMount = mount(<Contador/>)
-
-        console.log(testMount.debug());
-    })
-
 })
