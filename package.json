@@ -18,7 +18,7 @@
       "**/__tests__/**/*.test.[jt]s?(x)"
     ],
     "setupFilesAfterEnv": [
-      "jest-enzyme"
+      "../src/setupTests.js"
     ],
     "testEnvironment": "enzyme",
     "testEnvironmentOptions": {
@@ -60,6 +60,7 @@
     "enzyme-adapter-react-16": "^1.15.6",
     "jest-environment-enzyme": "^7.1.2",
     "jest-enzyme": "^7.1.2",
+    "regenerator-runtime": "^0.13.7",
     "supertest": "^6.1.3"
   }
 }
